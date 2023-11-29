@@ -6,7 +6,7 @@ cd then goto symfony-test folder
 
 composer install
 
-php bin/console d:m:m
+php bin/console doctrine:migrations:migrate
 
 install symfony cmd 
 
